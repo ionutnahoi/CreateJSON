@@ -22,6 +22,7 @@ public class MainFrame extends JFrame {
     public MainFrame() {
         setTitle("JSON Creater");
         setSize(700, 500);
+
         setVisible(true);
         setContentPane(mainPannel);
         submitButton.addActionListener(new ActionListener() {
